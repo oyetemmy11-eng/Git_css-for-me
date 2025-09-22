@@ -1,0 +1,21 @@
+/* h1{
+    color: blueviolet;
+} */
+
+/* #jesus{
+    background-color: blanchedalmond;
+} */
+/* .ahmed{
+
+    background-color: aquamarine;
+} */
+
+.parent > .child{
+    background-color: aquamarine;
+    font-style: oblique;
+    
+}
+
+.tauzee + .godwin {
+    background-color: aquamarine;
+}
