@@ -19,3 +19,7 @@
 .tauzee + .godwin {
     background-color: aquamarine;
 }
+
+.person ~ .child, .adult{
+    background-color: bisque;
+}
