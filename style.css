@@ -1,6 +1,9 @@
 /* h1{
     color: blueviolet;
 } */
+body{
+        background-color: powderblue;
+    }
 
 /* #jesus{
     background-color: blanchedalmond;
@@ -15,11 +18,79 @@
     font-style: oblique;
     
 }
-
+/* next sibling */
 .tauzee + .godwin {
     background-color: aquamarine;
 }
-
+/* subsequent sibling */
 .person ~ .child, .adult{
     background-color: bisque;
 }
+
+/* <!-- Border Css --> */
+.Border{
+    /* border-top: double;
+    border-right: dotted;
+    border-left: dotted;
+    border-bottom: double; */
+    border-style: dotted solid;
+    /* border-width: 10px; */
+    border: 4px dashed indianred;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    /* border-color: blue red indianred rebeccapurple; */
+border-radius: 5px;
+/* margin-top: 50px;
+margin-left: 50px; */
+/* padding-left: 20px;
+padding-bottom: 20px; */
+background-color: aqua;
+padding: 50px;
+font-size: 30px;
+font-weight: 500;
+box-sizing: border-box;
+position: relative;
+
+}
+
+.temi{
+    background-color: aqua;
+padding: 50px;
+box-sizing: border-box;
+position: relative;
+ border: 4px dashed indianred;
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.me1{
+    width: 80px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+} 
+.me2{
+    width: 80px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+} 
+.me3{
+    width: 80px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 5px;
+    right: 3px;
+} 
+.me4{
+    width: 80px;
+    background-color: aquamarine;
+    /* position: absolute;
+    top: 5px;
+    left: 3px; */
+} 
+
