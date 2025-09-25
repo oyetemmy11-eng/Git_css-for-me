@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color: aquamarine;
+    height: 100vw;
+    width: 100vw;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-flow: column wrap;
+    /* justify-content: center; (horizonally) */
+    /* align-items: center; (vertical) */
+}
+
+.container > span {
+    background-color: beige;
+    height: 70px;
+    width: 120px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: brown;
+}
