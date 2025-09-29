@@ -14,6 +14,7 @@
     flex-flow: column wrap;
     /* justify-content: center; (horizonally) */
     /* align-items: center; (vertical) */
+    align-content: space-between;
 }
 
 .container > span {
@@ -24,4 +25,32 @@
     padding: 20px;
     font-size: 30px;
     color: brown;
+}
+
+/* order */
+.item2{
+    order: 1;
+    flex-grow: 0;
+    /* flex-basis: content; */
+    /* flex-basis: 300px; */
+    flex:  0 auto;
+    overflow wrap: break-word;
+}
+
+.item4{
+    order :2;
+    flex-grow: 0;
+}
+
+.item5{
+    order :3;
+    flex-grow: 0
+}
+.item1{
+    order :4;
+    flex-grow: 0;
+}
+.item3{
+    order :5;
+    flex-grow: 0;
 }

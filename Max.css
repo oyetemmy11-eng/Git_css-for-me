@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+@media only print{
+    h4{
+        background-color: burlywood;
+        font-size: 50px;
+        border: 60px solid blue;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width:1200px) { /*anything less than is when it applies*/
+    h4{
+        background-color: rgb(91, 9, 9);
+        font-size: 50px;
+        border: 60px solid green;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:1000px) { /*less than or equal to 1000 */
+    h4{
+        background-color: blue;
+        font-size: 50px;
+        border: 60px solid indigo;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:800px) { /*less than or equal to 800 */
+    h4{
+        background-color: aquamarine;
+        font-size: 50px;
+        border: 60px solid red;
+        border-radius: 10px;
+    }
+}
+

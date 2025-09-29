@@ -1,0 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+h4{
+    background-color: gainsboro;
+}
+
+@media screen and (min-width:320px) { /* At least 320px or more */
+    h4{
+        background-color: indianred;
+        font-size: 40px;
+        border: 2px solid saddlebrown;
+    }
+    
+}
+@media screen and (min-width:480px) { /* At least 480px or more */
+    h4{
+        background-color: red;
+        font-size: 40px;
+        border: 2px solid bisque;
+    }
+    
+}
